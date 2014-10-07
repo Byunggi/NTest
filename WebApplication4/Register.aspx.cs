@@ -29,9 +29,6 @@ namespace WebApplication4
             else
             {
                 StatusMessage.Text = result.Errors.FirstOrDefault();
-
-                int i = 0;
-
             }
         }
     }
